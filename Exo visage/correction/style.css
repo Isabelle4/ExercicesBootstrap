@@ -1,0 +1,42 @@
+.container{
+  margin-top: 5%;
+  }
+  .row{
+  background-color: yellow;
+  width: 80%;
+  margin-left: 10%;
+/*border: 1px solid black;*/
+  }
+  .rowB{
+    width: 90%;
+    margin-left: 5%;
+    }
+.chapeau{
+  background-color: green;
+  height: 40px;
+}
+  .jaune{
+  background-color: yellow;
+  height: 60px;
+  /*border: 1px solid black;*/
+}
+.noirOeil{
+  background-color: black;
+  height: 60px;
+  border-radius: 50%;
+}
+.noirNez{
+  background-color: brown;
+  height: 60px;
+  border-radius: 50%;
+}
+.noirSourire{
+  background-color: black;
+  height: 60px;
+  border-radius: 25px 25px 0px 0px;
+}
+.noirSourireBas{
+  background-color: black;
+  height: 30px;
+  border-radius: 0px 0px 15px 15px ;
+}

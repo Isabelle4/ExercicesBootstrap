@@ -1,0 +1,56 @@
+.traitrouge{
+  border: 3px red solid;
+  height: 20px;
+  margin-bottom: 10px;
+}
+
+.traitvert{
+  border: 3px green solid;
+  height: 20px;
+  margin-bottom: 10px;
+}
+
+.traitbleu{
+  border: 3px blue solid;
+  height: 20px;
+  margin-bottom: 10px;
+}
+
+.minirouge{
+  border: 3px red solid;
+  height: 20px;
+}
+
+.minivert{
+  border: 3px green solid;
+  height: 20px;
+  }
+
+.minijaune{
+  border: 3px yellow solid;
+  height: 20px;
+}
+
+.miniorange{
+  border: 3px orange solid;
+  height: 20px;
+  margin-bottom: 10px;
+}
+
+.traitbleulong{
+  border: 3px blue solid;
+  height: 20px;
+  margin-bottom: 10px;
+}
+
+.traitbasrouge{
+  border: 3px red solid;
+  height: 20px;
+  margin-bottom: 10px;
+}
+
+.traitbasvert{
+  border: 3px green solid;
+  height: 20px;
+  margin-bottom: 10px;
+}

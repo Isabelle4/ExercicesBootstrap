@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Exercice Bootstrap 1</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+      <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+
+<div class="container"><!--début container-->
+
+<!--début header-->
+  <div class="row">
+    <div class="header col-md-7">
+       <h1>Isabelle DUBOIS<br/>
+       <small>Développeuse Web</small>
+       </h1>
+   </div>
+   <div class="header col-md-5" style="text-align: right;">
+   			<a href="cv.pdf" <!--style="margin-top:10px; display: inline-block;">Télécharger mon CV</a><br />
+   </div>
+ </div><!--fin row-->
+   <!--fin header-->
+
+<!--Menu du CV-->
+  <div class="row">
+  <div class="col-md-10 col-md-offset-1">
+      <nav class="navbar">
+          <ul class="nav nav-tabs nav-justified" role="tablist">
+              <li><a href="index.html">Accueil</a></li>
+              <li><a href="moncv.html">Mon CV</a></li>
+              <li><a href="mesprojets.html">Mes Projets</a></li>
+              <li><a href="contact.php">Contact</a></li>
+          </ul>
+      </nav>
+  </div>
+  </div>
+
+<!--body du CV-->
+<div class="row">
+    <div class="cadrebody col-md-7"><!--cadre présentation-->
+      <div class="topcadre">Présentation</div><!--titre cadre présentation-->
+
+<img src="fiche.jpg" id="image1" width="50px"/><!--image petite fiche à gauche-->
+<h2>Vous êtes à la recherche d'une personne bla bla bla bla ?</h2>
+<p>
+<img src="graphique.png" id="image2" width="200px"/><!--image graphique-->
+</p>
+    </div>
+<!--fin cadre présentation-->
+
+<!--les 3 cadres à gauche-->
+        <div class="cadreG1 col-md-offset-1 col-md-4"><!--1er cadre gauche-->
+          <div class="topcadre">Qui suis-je ?</div><!--titre 1er cadre gauche-->
+            <p>
+            Description en qlq lignes<br />
+            Description en qlq lignes<br />
+           </p>
+        </div><!--fin 1er cadre-->
+
+        <div class="cadreG2 col-md-offset-1 col-md-4"><!--2e cadre gauche-->
+          <div class="topcadre">Expérience</div><!--titre 2e cadre gauche-->
+
+
+            <!--Liste à puces pour expériences-->
+            <ul>
+              <li>Expérience 1</li>
+              <li>Expérience 2</li>
+              <li>Expérience 3</li>
+            </ul>
+        </div><!--fin 2e cadre-->
+
+        <div class="cadreG3 col-md-offset-1 col-md-4">
+          <div class="topcadre">Contact</div><!--titre 3eme cadre-->
+          Bla bla</div><!--3e cadre gauche-->
+<!--fin 3 cadres de gauche-->
+</div><!--fin row-->
+
+
+<!--début cadre du bas-->
+    <div class="row">
+       <div class="cadrefooter col-md-7">
+        <div class="topcadre">Actualité</div><!--titre cadre du bas-->
+        </div><!--cadre du bas-->
+
+
+    </div>
+ <!--fin cadre du bas-->
+
+<!--Footer avec copyright-->
+ <footer>
+        <div class="row">
+        <div class="col-md-10 col-md-offset-1" style="text-align: center;">
+           <hr />
+             <a href="">Informations</a> -
+             <a href="">Mentions Légales</a> -
+             <a href="contact.php">Contact</a>
+         <br />
+         <p>© 2016 Conception et réalisation par Isabelle D. Tous droits réservés.</p>
+       </div>
+      </div>
+</footer>
+<!--Fin footer-->
+
+</div><!--fin container-->
+
+
+</body>
+</html>

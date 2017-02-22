@@ -1,0 +1,62 @@
+.container{
+  margin-top: 60px;
+}
+
+/*CHAPEAU*/
+.ligne1{
+  background-color: green;
+  height: 80px;
+}
+
+.ligne2{
+  background-color: green;
+  height: 40px;
+}
+
+/*VISAGE*/
+.visage .head{
+  background-color: yellow;
+  height: 350px;
+  }
+
+.visage .menton{
+  background-color: yellow;
+  height: 60px;
+}
+
+/*YEUX*/
+.oeilG{
+  height: 60px;
+  border-radius: 60px/60px;
+  background-color: black;
+}
+
+.oeilD{
+  height: 60px;
+  border-radius: 60px/60px;
+  background-color: black;
+}
+
+.nez{
+  height: 60px;
+  border-radius: 80px/40px;
+  background-color: red;
+}
+
+.boucheM{
+  height: 30px;
+  background-color: black;
+  border-radius: 0 0 15px 15px;
+}
+
+.boucheG{
+  height: 60px;
+  background-color: black;
+  border-radius: 15px 15px 0 0;
+}
+
+.boucheD{
+  height: 60px;
+  background-color: black;
+  border-radius: 15px 15px 0 0;
+}

@@ -1,0 +1,58 @@
+.container{
+  padding: 20px 60px 20px 60px;
+  background-color: #e5f2f6;
+}
+
+.header{
+ margin-bottom: 30px;
+}
+
+.topcadre{
+  height: 50px;
+  background-color: #ebebeb;
+  font-family: Arial;
+  font-size: 30px;
+  border: 2px dotted rgb(162, 162, 162);
+  padding-left: 15px;
+
+}
+
+/*cadre de présentation*/
+.cadrebody{
+  height: 800px;
+  margin-bottom: 30px;
+  background-color: white;
+  padding: 0;
+
+
+}
+
+/*les 3 cadres à gauche*/
+.cadreG1{
+  height: 150px;
+  margin-bottom: 30px;
+  background-color: white;
+  padding: 0;
+}
+
+.cadreG2{
+  height: 150px;
+  margin-bottom: 30px;
+  background-color: white;
+  padding: 0;
+}
+
+.cadreG3{
+  height: 150px;
+  margin-bottom: 30px;
+  background-color: white;
+  padding: 0;
+}
+
+/*footer cadre du bas*/
+.cadrefooter{
+  height: 200px;
+  background-color: white;
+  margin-bottom: 30px;
+  padding: 0;
+}
